@@ -59,7 +59,7 @@ function verifyTimestamp(timestamp, timestamp2, maxDistanceInSeconds) {
 ```
 
 ## Context: 🛡️🙌 Nano Proof of Ownership Protocol V0.2
-The purpose: to provide wallet builders with a simple flexible solution (or starting point) for Proof of Ownership using Nano wallets.
+The purpose: to provide wallet builders with a simple flexible solution (or starting point) for off-chain Proof of Ownership using Nano wallets.
 
 ### About the variabes:
 Time is the number that we almost all "agree" on, and can be used for expiration.
