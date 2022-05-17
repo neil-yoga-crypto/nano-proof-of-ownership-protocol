@@ -3,7 +3,8 @@
 ```
 // pseudo code example
 
-// signing (in browser/app)
+// 1. sign (in browser/app)
+
 let domain = 'nano.org'; // domain, ex. from process.env
 let algorithm = 'ed25519-blake2'; // algorithm
 let serverTime = +new Date(); // timestamp, ex. from GET/use UTC
@@ -11,6 +12,8 @@ let publicKeyHex = 'be';
 let privateKeyHex = 'ef';
 let token = sign(serverTime,domain, publicKeyHex, privateKeyHex);
 console.log("token", token);
+
+// 2. verify (on your server)
 
 let valid = verify(domain, token);
 console.log("valid", valid);
