@@ -88,4 +88,10 @@ First algorithm can for example be "ed25519-blake2" by https://github.com/numsu/
 ```
 git clone https://github.com/neil-yoga/nano-proof-of-ownership-protocol-v0.2
 node index.js
+# Should output:
+# token 1652821527006.ed25519-blake2.be.signed_msg_1652821527006.nano.org 
+# valid true 
+*/
+
+
 ```
