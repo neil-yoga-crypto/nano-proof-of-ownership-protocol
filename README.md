@@ -56,9 +56,9 @@ function verifyTimestamp(timestamp, timestamp2, maxDistanceInSeconds) {
 ```
 
 ## Context: 🛡️🙌 Nano Proof of Ownership Protocol V0.2
+The purpose: to provide wallet builders with a simple flexible solution (or starting point) for Proof of Ownership using Nano wallets.
 
-Perhaps this is the real solution for wallet builders to implement proof of ownership with Nano is this simple protocol.
-
+### About the variabes:
 Time is the number that we almost all "agree" on, and can be used for expiration.
 
 Domains have a specific owner that we all "agree" on, and can be used for an unique id.
