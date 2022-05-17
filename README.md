@@ -82,3 +82,10 @@ Perhaps the only thing you need to send from the client is the following:
 You could then send one string TIMESTAMP.ALGO.PUBLICKEY.SIGNATURE (seperated by dots, buffers HEX encoded) to extract and instantly validate a Nano wallets ownership on any webserver with multiple choices for signing/verification algorithms.
 
 First algorithm can for example be "ed25519-blake2" by https://github.com/numsu/nanocurrency-web-js/blob/master/lib/ed25519.ts (currently available as npm library for  frontend, not yet useable in backend)
+
+
+### Run Demo Pseudo Code
+```
+git clone https://github.com/neil-yoga/nano-proof-of-ownership-protocol-v0.2
+node index.js
+```
