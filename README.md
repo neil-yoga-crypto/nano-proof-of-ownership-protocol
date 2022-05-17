@@ -55,7 +55,7 @@ function verifyTimestamp(timestamp, timestamp2, maxDistanceInSeconds) {
 }
 ```
 
-## Context
+## Context: 🛡️🙌 Nano Proof of Ownership Protocol V0.2
 
 Perhaps this is the real solution for wallet builders to implement proof of ownership with Nano is this simple protocol.
 
