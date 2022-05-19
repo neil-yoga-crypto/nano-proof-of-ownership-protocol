@@ -1,4 +1,4 @@
-# 🛡️🙌 Nano Proof of Ownership Protocol V0.2
+# 🛡️🙌 Nano Proof of Ownership Protocol V0.3
 
 ```
 // pseudo code example
@@ -58,7 +58,7 @@ function verifyTimestamp(timestamp, timestamp2, maxDistanceInSeconds) {
 }
 ```
 
-## Context: 🛡️🙌 Nano Proof of Ownership Protocol V0.2
+## Context: 🛡️🙌 Nano Proof of Ownership Protocol V0.3
 The purpose: to provide wallet builders with a simple flexible solution (or starting point) for off-chain Proof of Ownership using Nano wallets.
 
 ### About the variables:
@@ -68,9 +68,7 @@ Domains have a specific owner that we all "agree" on, and can be used for an uni
 
 Signing provides proof of accounts.
 
-And the signing method or algorithm can also be of choice, because you could even use the Nano wallet's seed to seed other cryptographic systems.
-
-Perhaps the only thing you need to send from the client is the following:
+The only thing you need to send from the client is the following:
 
 - Timestamp (for security to make sure user has access to the Nano wallet and not just the signature, UTC/Server based)
 
@@ -95,3 +93,6 @@ node index.js
 # token 1652879543244.ed25519-blake2.be.signed_timestamp_and_domain
 # valid true
 ```
+
+### Demo Implementation with Web App
+https://github.com/neil-yoga/nano-signing-for-nft
